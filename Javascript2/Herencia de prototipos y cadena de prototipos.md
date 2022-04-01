@@ -1,4 +1,4 @@
-# **La herencia y la cadena de prototipos
+# **La herencia y la cadena de prototipos**
 
 Cuando se trata de herencia, JavaScript solo tiene una construcción: objetos. Cada objeto tiene una propiedad privad que contiene un enlace a otro objeto llamado **prototipo**. Ese objeto prototipo tiene un prototipo propio, y así sucesivamente hasta llegar a un objeto con `null` su prototipo. Por definición, `null` no tiene prototipo y actúa como el eslabón final en esta cadena de prototipos.
 
